@@ -22,11 +22,6 @@ def create
   end
 end
 
-private
-
-  def job_params
-    params.require(:job).permit(:title, :description)
-  end
 
   def edit
     @job = Job.find(params[:id])
@@ -49,4 +44,9 @@ private
     redirect_to jobs_path
   end
 
+  private
+
+    def job_params
+      params.require(:job).permit(:title, :description)
+    end
 end
