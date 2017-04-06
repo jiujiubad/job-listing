@@ -19,6 +19,73 @@
 @import "bootstrap";
 @import "font-awesome";
 
+.sec-services {
+    background: #f9f9f9;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container>h1 {
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+}
+hr {
+    margin-bottom: 3em;
+    width: 7%;
+}
+//*[@id="services"]
+#services
+
+
+
+.block-submit-last {
+  display: block;
+  background: #1696fb;
+  border-style: none;
+  margin: -5px auto 0;
+  border-radius: 0;
+  width: 100%;
+  height: 410px;
+  position: relative;
+  text-align: center;
+  padding: 60px;
+  color: white;
+  top: 2px;
+  letter-spacing: 5px;
+}
+
+/* line 422, /Users/soarmarc/job-listing/app/assets/stylesheets/application.scss */
+.round-submit-1 .round-submit-button {
+  border-radius: 25px;
+  background: transparent;
+  display: inline-block;
+  border: 2px solid #fff;
+  color: #fff;
+  line-height: 1;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 14px 37px 13px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+
+.slogan {
+    font-family: PingFangSC-Regular, Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    top: 2px;
+    letter-spacing: 5px;
+}
+
 .jumbotron {
   background-image:url('https://thumbs.dreamstime.com/z/professional-entrepreneur-job-success-successful-casual-man-gesturing-checking-cellphone-messages-towards-city-skyline-enjoys-47287660.jpg');
   background-repeat: no-repeat;
